@@ -11,17 +11,27 @@ export default class Navigation extends React.Component {
           <ul className="navbar-nav">
             <li className="nav-item active">
               <a className="nav-link" href="#home">
-                Home <span className="sr-only">(current)</span>
+                Home 
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about-us">
-                About Us
+              <a className="nav-link" href="#about">
+                About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#pricing">
-                Pricing
+              <a className="nav-link" href="#Retreats">
+                Retreats
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contactUs">
+                Contact Us
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#tours">
+                Tours
               </a>
             </li>
           </ul>

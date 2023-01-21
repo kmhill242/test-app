@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+#loginForm {
+  text-align: center;
+}
+
+div {
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  background-color: #61dafb;
+}
+
+nav {
+  border: 1px solid black;
+  margin: 5px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -39,6 +39,13 @@
 
 #loginForm {
   text-align: center;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-end: 6;
 }
 
 div {
